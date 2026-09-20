@@ -1,4 +1,4 @@
-package problem3;
+package problem4;
 
 import java.io.IOException;
 
@@ -6,7 +6,7 @@ import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Reducer;
 
-public class EngagementReducer
+public class PostingHourCombiner
         extends Reducer<Text, IntWritable, Text, IntWritable> {
 
     private final IntWritable result = new IntWritable();

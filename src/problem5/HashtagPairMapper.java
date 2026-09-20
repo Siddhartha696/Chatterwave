@@ -4,8 +4,9 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashSet;
-import java.util.List;
 import java.util.Set;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.LongWritable;
@@ -15,9 +16,11 @@ import org.apache.hadoop.mapreduce.Mapper;
 public class HashtagPairMapper
         extends Mapper<LongWritable, Text, Text, IntWritable> {
 
-    private static final IntWritable ONE = new IntWritable(1);
-
     private final Text pair = new Text();
+    private final IntWritable one = new IntWritable(1);
+
+    private static final Pattern HASHTAG =
+            Pattern.compile("#[A-Za-z0-9_]+");
 
     @Override
     protected void map(
@@ -28,87 +31,32 @@ public class HashtagPairMapper
 
         String post = value.toString().trim();
 
-        String[] lines = post.split("\\r?\\n");
+        Matcher matcher =
+                HASHTAG.matcher(post);
 
-        if (lines.length == 0) {
-            return;
+        Set<String> uniqueTags =
+                new HashSet<>();
+
+        while (matcher.find()) {
+            uniqueTags.add(
+                    matcher.group().toLowerCase());
         }
 
-        String[] fields = lines[0].trim().split("\\|");
+        ArrayList<String> tags =
+                new ArrayList<>(uniqueTags);
 
-        /*
-         * Dataset format:
-         *
-         * 0 = post ID
-         * 1 = username
-         * 2 = timestamp
-         * 3 = hashtags
-         * 4 = likes
-         * 5 = shares
-         */
+        Collections.sort(tags);
 
-        if (fields.length < 4) {
-            return;
-        }
-
-        String hashtagField = fields[3].trim();
-
-        if (hashtagField.isEmpty()) {
-            return;
-        }
-
-        String[] rawHashtags = hashtagField.split(",");
-
-        /*
-         * Remove duplicate hashtags within
-         * the same post.
-         */
-        Set<String> unique =
-                new HashSet<String>();
-
-        for (String hashtag : rawHashtags) {
-
-            hashtag = hashtag.trim().toLowerCase();
-
-            if (!hashtag.isEmpty()) {
-                unique.add(hashtag);
-            }
-        }
-
-        /*
-         * Convert to list and sort.
-         *
-         * Sorting guarantees that:
-         *
-         * #ai,#hadoop
-         *
-         * and
-         *
-         * #hadoop,#ai
-         *
-         * are treated as the same pair.
-         */
-        List<String> hashtags =
-                new ArrayList<String>(unique);
-
-        Collections.sort(hashtags);
-
-        /*
-         * Generate all unique combinations.
-         */
-        for (int i = 0; i < hashtags.size(); i++) {
+        for (int i = 0; i < tags.size(); i++) {
 
             for (int j = i + 1;
-                 j < hashtags.size();
+                 j < tags.size();
                  j++) {
 
                 pair.set(
-                        hashtags.get(i)
-                        + ","
-                        + hashtags.get(j)
-                );
+                        tags.get(i) + "," + tags.get(j));
 
-                context.write(pair, ONE);
+                context.write(pair, one);
             }
         }
     }

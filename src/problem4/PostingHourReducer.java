@@ -20,9 +20,8 @@ public class PostingHourReducer
 
         int total = 0;
 
-        for (IntWritable value : values) {
+        for (IntWritable value : values)
             total += value.get();
-        }
 
         result.set(total);
 

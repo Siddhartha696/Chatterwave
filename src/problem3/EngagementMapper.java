@@ -1,6 +1,8 @@
 package problem3;
 
 import java.io.IOException;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.LongWritable;
@@ -12,6 +14,12 @@ public class EngagementMapper
 
     private final Text user = new Text();
     private final IntWritable engagement = new IntWritable();
+
+    private static final Pattern LIKES =
+            Pattern.compile("likes=(\\d+)");
+
+    private static final Pattern SHARES =
+            Pattern.compile("shares=(\\d+)");
 
     @Override
     protected void map(
@@ -31,33 +39,25 @@ public class EngagementMapper
 
         String[] fields = metadata.split("\\|");
 
-        // Expected:
-        // 0 = post ID
-        // 1 = username
-        // 2 = timestamp
-        // 3 = hashtags
-        // 4 = likes
-        // 5 = shares
-
         if (fields.length < 6)
             return;
 
-        try {
+        String username = fields[1].trim();
 
-            String username = fields[1].trim();
+        Matcher likesMatcher = LIKES.matcher(metadata);
+        Matcher sharesMatcher = SHARES.matcher(metadata);
 
-            int likes = Integer.parseInt(fields[4].trim());
-            int shares = Integer.parseInt(fields[5].trim());
+        if (!likesMatcher.find() || !sharesMatcher.find())
+            return;
 
-            int totalEngagement = likes + shares;
+        int likes = Integer.parseInt(likesMatcher.group(1));
+        int shares = Integer.parseInt(sharesMatcher.group(1));
 
-            user.set(username);
-            engagement.set(totalEngagement);
+        int total = likes + shares;
 
-            context.write(user, engagement);
+        user.set(username);
+        engagement.set(total);
 
-        } catch (NumberFormatException e) {
-            // Ignore malformed records
-        }
+        context.write(user, engagement);
     }
 }

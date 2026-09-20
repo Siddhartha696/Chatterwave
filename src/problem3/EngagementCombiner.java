@@ -18,13 +18,12 @@ public class EngagementCombiner
             Context context)
             throws IOException, InterruptedException {
 
-        int sum = 0;
+        int total = 0;
 
-        for (IntWritable value : values) {
-            sum += value.get();
-        }
+        for (IntWritable value : values)
+            total += value.get();
 
-        result.set(sum);
+        result.set(total);
 
         context.write(key, result);
     }

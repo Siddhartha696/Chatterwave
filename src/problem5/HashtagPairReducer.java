@@ -9,8 +9,7 @@ import org.apache.hadoop.mapreduce.Reducer;
 public class HashtagPairReducer
         extends Reducer<Text, IntWritable, Text, IntWritable> {
 
-    private final IntWritable result =
-            new IntWritable();
+    private final IntWritable result = new IntWritable();
 
     @Override
     protected void reduce(
@@ -21,10 +20,8 @@ public class HashtagPairReducer
 
         int total = 0;
 
-        for (IntWritable value : values) {
-
+        for (IntWritable value : values)
             total += value.get();
-        }
 
         result.set(total);
 

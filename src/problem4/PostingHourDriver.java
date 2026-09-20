@@ -7,6 +7,7 @@ import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Job;
+import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
 public class PostingHourDriver {
@@ -15,40 +16,47 @@ public class PostingHourDriver {
             throws Exception {
 
         if (args.length != 2) {
-
             System.err.println(
                     "Usage: PostingHourDriver <input> <output>");
-
-            System.exit(2);
+            System.exit(1);
         }
 
-        Configuration conf = new Configuration();
+        Configuration conf =
+                new Configuration();
 
-        Job job = Job.getInstance(
-                conf,
-                "ChatterWave Problem 4 - Posting Frequency by Hour");
+        Job job =
+                Job.getInstance(
+                        conf,
+                        "ChatterWave Problem 4 - Posting Frequency by Hour");
 
-        job.setJarByClass(PostingHourDriver.class);
+        job.setJarByClass(
+                PostingHourDriver.class);
 
-        /*
-         * ChatterWave posts are multi-line records
-         * terminated by ###.
-         */
-        job.setInputFormatClass(PostInputFormat.class);
+        job.setInputFormatClass(
+                PostInputFormat.class);
 
-        job.setMapperClass(PostingHourMapper.class);
+        job.setMapperClass(
+                PostingHourMapper.class);
 
-        job.setReducerClass(PostingHourReducer.class);
+        job.setCombinerClass(
+                PostingHourCombiner.class);
 
-        job.setMapOutputKeyClass(Text.class);
+        job.setReducerClass(
+                PostingHourReducer.class);
 
-        job.setMapOutputValueClass(IntWritable.class);
+        job.setMapOutputKeyClass(
+                Text.class);
 
-        job.setOutputKeyClass(Text.class);
+        job.setMapOutputValueClass(
+                IntWritable.class);
 
-        job.setOutputValueClass(IntWritable.class);
+        job.setOutputKeyClass(
+                Text.class);
 
-        PostInputFormat.addInputPath(
+        job.setOutputValueClass(
+                IntWritable.class);
+
+        FileInputFormat.addInputPath(
                 job,
                 new Path(args[0]));
 
@@ -57,6 +65,7 @@ public class PostingHourDriver {
                 new Path(args[1]));
 
         System.exit(
-                job.waitForCompletion(true) ? 0 : 1);
+                job.waitForCompletion(true)
+                        ? 0 : 1);
     }
 }
