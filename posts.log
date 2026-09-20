@@ -1,0 +1,200 @@
+p001|Aarav|2026-09-10 08:15:00|#AI,#Tech|likes=145|shares=35
+AI tools are helping developers write and test software faster.
+Teams are exploring practical uses of artificial intelligence.
+###
+p002|Priya|2026-09-10 09:05:00|#Data,#Analytics|likes=95|shares=22
+Data analytics helps businesses understand customer behavior.
+Good decisions often begin with clean and useful data.
+###
+p003|Rahul|2026-09-10 10:20:00|#Hadoop,#BigData|likes=120|shares=30
+Hadoop can process very large datasets across distributed systems.
+Learning HDFS and MapReduce is useful for big data applications.
+###
+p004|Ananya|2026-09-10 11:10:00|#Cloud,#Tech|likes=110|shares=28
+Cloud computing makes it easier to scale modern applications.
+Developers can provision resources when they need them.
+###
+p005|Vikram|2026-09-10 12:40:00|#AI,#ML|likes=180|shares=45
+Machine learning models can discover patterns in large datasets.
+AI applications are becoming common across many industries.
+###
+p006|Sneha|2026-09-10 13:25:00|#Python,#Data|likes=130|shares=32
+Python is widely used for data analysis and machine learning.
+Libraries make data processing much easier for students.
+###
+p007|Arjun|2026-09-10 14:15:00|#Cybersecurity,#Tech|likes=90|shares=20
+Cybersecurity practices help protect applications and user information.
+Secure development should be considered from the beginning.
+###
+p008|Meera|2026-09-10 15:35:00|#Cloud,#AI|likes=155|shares=40
+Cloud platforms provide computing resources for AI workloads.
+Scalable infrastructure helps teams experiment with new models.
+###
+p009|Karthik|2026-09-10 16:20:00|#Java,#Programming|likes=100|shares=24
+Java remains useful for enterprise software and distributed applications.
+Strong programming fundamentals help with large projects.
+###
+p010|Ishita|2026-09-10 17:45:00|#WebDev,#JavaScript|likes=125|shares=31
+Modern web applications use JavaScript for interactive interfaces.
+Frontend skills are useful for building responsive websites.
+###
+p011|Rohan|2026-09-10 18:30:00|#Hadoop,#Data|likes=105|shares=27
+Distributed storage allows large datasets to be processed efficiently.
+HDFS is an important component of the Hadoop ecosystem.
+###
+p012|Divya|2026-09-10 19:15:00|#AI,#Data,#Analytics|likes=210|shares=55
+AI combined with analytics can help organizations discover useful insights.
+Data-driven applications are changing business workflows.
+###
+p013|Aarav|2026-09-11 08:40:00|#Tech,#Startup|likes=170|shares=42
+Technology startups often experiment with new digital products.
+Fast feedback can help teams improve their ideas.
+###
+p014|Priya|2026-09-11 09:30:00|#Cloud,#DevOps|likes=115|shares=26
+Cloud and DevOps practices can simplify software deployment.
+Automation reduces repetitive deployment work.
+###
+p015|Rahul|2026-09-11 10:45:00|#BigData,#Analytics|likes=135|shares=34
+Big data systems help organizations analyze information at scale.
+Analytics can reveal trends hidden inside large datasets.
+###
+p016|Ananya|2026-09-11 11:55:00|#AI,#Education|likes=160|shares=38
+AI tools can support personalized learning experiences.
+Students are experimenting with intelligent study assistants.
+###
+p017|Vikram|2026-09-11 12:15:00|#ML,#Python|likes=190|shares=48
+Python makes it convenient to experiment with machine learning models.
+Small experiments can help students understand model behavior.
+###
+p018|Sneha|2026-09-11 13:50:00|#Data,#Python|likes=140|shares=35
+Data cleaning is an important step before building analytical models.
+Python provides many useful tools for preparing datasets.
+###
+p019|Arjun|2026-09-11 14:35:00|#Cybersecurity,#Cloud|likes=125|shares=29
+Cloud environments require careful access control and monitoring.
+Security remains important as applications move online.
+###
+p020|Meera|2026-09-11 15:20:00|#AI,#Tech,#ML|likes=225|shares=60
+AI and machine learning are driving new software capabilities.
+Developers are integrating models into everyday applications.
+###
+p021|Karthik|2026-09-11 16:45:00|#Java,#Backend|likes=130|shares=30
+Backend services need reliable programming and database design.
+Java is still used in many large backend systems.
+###
+p022|Ishita|2026-09-11 17:10:00|#WebDev,#React|likes=150|shares=36
+Component-based frontend development helps organize web applications.
+Reusable components can reduce development effort.
+###
+p023|Rohan|2026-09-11 18:55:00|#Hadoop,#MapReduce|likes=145|shares=33
+MapReduce divides large data processing tasks into manageable stages.
+Understanding Mapper and Reducer logic is useful for Hadoop projects.
+###
+p024|Divya|2026-09-11 20:05:00|#Analytics,#Data|likes=175|shares=44
+Analytics dashboards can make business information easier to understand.
+Visual summaries help teams identify important trends.
+###
+p025|Aarav|2026-09-12 08:10:00|#AI,#Startup|likes=230|shares=65
+Startups are using AI to automate repetitive business processes.
+Small teams can build useful products with modern AI services.
+###
+p026|Aarav|2026-09-12 10:25:00|#Cloud,#Tech|likes=195|shares=50
+Cloud services allow startups to scale without managing physical servers.
+Infrastructure can grow alongside application demand.
+###
+p027|Priya|2026-09-12 12:05:00|#Data,#AI|likes=180|shares=42
+Combining data engineering with AI can improve decision support.
+Reliable datasets are important for useful machine learning.
+###
+p028|Priya|2026-09-12 18:40:00|#Education,#Tech|likes=125|shares=30
+Technology can make classroom resources more accessible.
+Digital learning tools are useful when combined with good teaching.
+###
+p029|Rahul|2026-09-12 09:50:00|#Hadoop,#BigData,#Data|likes=160|shares=40
+Hadoop provides tools for storing and processing large datasets.
+Distributed systems are useful when data volumes become large.
+###
+p030|Rahul|2026-09-12 16:30:00|#MapReduce,#Java|likes=140|shares=35
+Java is commonly used to implement Hadoop MapReduce applications.
+A clear Mapper and Reducer design makes jobs easier to debug.
+###
+p031|Ananya|2026-09-12 11:35:00|#AI,#Healthcare|likes=205|shares=52
+AI research is being explored for many healthcare applications.
+Careful validation is important when technology supports sensitive decisions.
+###
+p032|Ananya|2026-09-12 19:25:00|#Cloud,#Healthcare|likes=155|shares=37
+Cloud infrastructure can support scalable healthcare information systems.
+Security and privacy are important in such applications.
+###
+p033|Vikram|2026-09-13 08:55:00|#ML,#AI,#Data|likes=240|shares=70
+Machine learning becomes more useful when models have quality training data.
+Data preparation and evaluation are key parts of an ML project.
+###
+p034|Vikram|2026-09-13 14:05:00|#Python,#ML|likes=200|shares=50
+Python notebooks are convenient for experimenting with machine learning.
+Students can quickly compare different approaches.
+###
+p035|Vikram|2026-09-13 21:15:00|#AI,#Tech|likes=185|shares=45
+AI development requires both technical knowledge and careful testing.
+Good engineering practices remain important for intelligent systems.
+###
+p036|Sneha|2026-09-13 10:15:00|#Data,#Analytics,#Python|likes=165|shares=40
+Analytics projects often involve collecting, cleaning, and summarizing data.
+Python can automate many data preparation tasks.
+###
+p037|Sneha|2026-09-13 17:35:00|#AI,#Education|likes=135|shares=34
+Students can use AI tools to explore difficult technical concepts.
+Responsible use of technology can support learning.
+###
+p038|Arjun|2026-09-13 12:50:00|#Cybersecurity,#AI|likes=175|shares=43
+AI can assist security teams in identifying unusual activity.
+Security tools still require careful human oversight.
+###
+p039|Meera|2026-09-13 09:20:00|#Cloud,#DevOps,#Tech|likes=185|shares=46
+Automation and cloud services can improve software delivery workflows.
+Continuous integration helps teams find problems earlier.
+###
+p040|Meera|2026-09-13 18:15:00|#AI,#Cloud,#Data|likes=215|shares=58
+Cloud platforms provide flexible infrastructure for data and AI applications.
+Scalable services can support changing workloads.
+###
+p041|Karthik|2026-09-14 10:05:00|#Java,#Programming|likes=115|shares=25
+Practicing programming problems improves problem-solving skills.
+Consistent practice is useful for technical interviews.
+###
+p042|Karthik|2026-09-14 15:10:00|#Hadoop,#Java|likes=155|shares=38
+Hadoop applications can be implemented using Java APIs.
+Understanding distributed processing helps when designing data pipelines.
+###
+p043|Ishita|2026-09-14 11:45:00|#WebDev,#JavaScript,#Tech|likes=165|shares=41
+Web development combines user experience with application logic.
+Modern interfaces need to work well across different devices.
+###
+p044|Rohan|2026-09-14 13:15:00|#BigData,#Cloud|likes=150|shares=35
+Cloud platforms can provide infrastructure for large-scale data processing.
+Distributed services can handle growing workloads.
+###
+p045|Divya|2026-09-14 16:55:00|#Analytics,#AI|likes=195|shares=49
+Analytics and AI can complement each other in decision-support systems.
+Organizations can use historical data to identify useful patterns.
+###
+p046|Rohan|2026-09-15 09:10:00|#Hadoop,#BigData|likes=130|shares=32
+Learning distributed systems gives students practical experience with large datasets.
+Hadoop is a useful platform for understanding these concepts.
+###
+p047|Divya|2026-09-15 12:30:00|#Data,#AI,#Analytics|likes=220|shares=58
+Data quality strongly affects the results of analytical and AI systems.
+Good pipelines help maintain reliable datasets.
+###
+p048|Aarav|2026-09-15 17:20:00|#AI,#ML,#Tech|likes=250|shares=72
+AI engineering combines software development, data, and machine learning.
+Practical projects are a good way to understand the complete workflow.
+###
+p049|Priya|2026-09-15 19:40:00|#Cloud,#Data,#Analytics|likes=190|shares=45
+Cloud data platforms make it easier to build scalable analytics solutions.
+Teams can process information from multiple sources.
+###
+p050|Rahul|2026-09-15 20:25:00|#Hadoop,#MapReduce,#BigData|likes=175|shares=42
+MapReduce is useful for processing large datasets using distributed computation.
+A well-designed Hadoop job can analyze data efficiently.
+###

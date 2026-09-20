@@ -1,0 +1,19 @@
+# Java compiled files
+*.class
+
+# Build directory
+build/
+
+# Generated JAR files
+*.jar
+
+# Hadoop output
+output/
+
+# IDE files
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
