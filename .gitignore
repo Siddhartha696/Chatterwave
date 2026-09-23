@@ -1,19 +1,11 @@
-# Java compiled files
-*.class
+﻿# Hadoop dependencies
+hadoop-libs/
 
-# Build directory
+# Pig installation/archive
+pig-0.17.0/
+pig-0.17.0.tar.gz
+
+# Build/output artifacts
 build/
-
-# Generated JAR files
+*.class
 *.jar
-
-# Hadoop output
-output/
-
-# IDE files
-.idea/
-*.iml
-
-# OS files
-.DS_Store
-Thumbs.db
