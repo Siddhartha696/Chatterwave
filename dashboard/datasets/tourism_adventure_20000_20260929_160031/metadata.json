@@ -1,0 +1,16 @@
+{
+    "id": "tourism_adventure_20000_20260929_160031",
+    "name": "trAAvelling_2",
+    "description": "Automated MapReduce analysis of the supplied ChatterWave dataset.",
+    "posts": 20000,
+    "users": 500,
+    "hashtags": 20,
+    "total_engagement": 7026739,
+    "analyses": [
+        "Problem 1 - Hashtag Frequency",
+        "Problem 2 - Average Engagement",
+        "Problem 3 - Highest Engaged User",
+        "Problem 4 - Posting Hour Activity",
+        "Problem 5 - Hashtag Relationships"
+    ]
+}

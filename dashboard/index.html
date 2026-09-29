@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ChatterWave Analytics</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+        <!-- DATASET SELECTOR -->
+
+    <div id="datasetSelector" class="dataset-selector">
+
+        <div class="dataset-selector-inner">
+
+            <span class="eyebrow">CHATTERWAVE ANALYTICS</span>
+
+            <h1>Select Analysis Dataset</h1>
+
+            <p class="dataset-selector-description">
+                Choose a completed dataset analysis to open the analytics portal.
+            </p>
+
+            <div id="datasetList" class="dataset-list">
+                <div class="dataset-loading">
+                    Loading available analyses...
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- SIDEBAR -->
+
+    <aside class="sidebar">
+
+        <div class="brand">
+            <div class="brand-mark">CW</div>
+
+            <div>
+                <h1>ChatterWave</h1>
+                <span>HADOOP ANALYTICS</span>
+            </div>
+        </div>
+
+        <nav>
+
+            <a href="#overview" class="nav-item active">
+                <span>01</span>
+                Overview
+            </a>
+
+            <a href="#hashtags" class="nav-item">
+                <span>02</span>
+                Hashtags
+            </a>
+
+            <a href="#engagement" class="nav-item">
+                <span>03</span>
+                Engagement
+            </a>
+
+            <a href="#activity" class="nav-item">
+                <span>04</span>
+                Activity
+            </a>
+
+            <a href="#relationships" class="nav-item">
+                <span>05</span>
+                Relationships
+            </a>
+
+            <a href="#comparison" class="nav-item">
+                <span>06</span>
+                Comparison
+            </a>
+
+        </nav>
+
+        <div class="sidebar-footer">
+
+            <div class="status-dot"></div>
+
+            <div>
+                <strong>Pipeline Active</strong>
+                <small>HDFS · MapReduce</small>
+            </div>
+
+        </div>
+
+    </aside>
+
+
+    <!-- MAIN -->
+
+    <main class="main">
+
+        <!-- HEADER -->
+
+        <header class="topbar">
+
+            <div>
+
+                <p class="eyebrow">SOCIAL MEDIA DATA PLATFORM</p>
+
+                <h2>Analytics Dashboard</h2>
+
+            </div>
+
+            <div class="header-meta">
+
+                <span class="dataset-status">
+                    ● DATASET LOADED
+                </span>
+
+                <span id="lastUpdated">
+                    —
+                </span>
+
+            </div>
+
+        </header>
+
+
+        <!-- OVERVIEW -->
+
+        <section id="overview" class="section">
+
+            <div class="section-heading">
+
+                <div>
+                    <span class="section-number">01</span>
+
+                    <div>
+                        <h3>Overview</h3>
+                        <p>Current dataset and processing summary</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="stats-grid">
+
+                <div class="stat-card">
+
+                    <span class="stat-label">
+                        TOTAL POSTS
+                    </span>
+
+                    <strong id="totalPosts">—</strong>
+
+                    <span class="stat-note">
+                        records processed
+                    </span>
+
+                </div>
+
+
+                <div class="stat-card">
+
+                    <span class="stat-label">
+                        UNIQUE USERS
+                    </span>
+
+                    <strong id="totalUsers">—</strong>
+
+                    <span class="stat-note">
+                        contributors
+                    </span>
+
+                </div>
+
+
+                <div class="stat-card">
+
+                    <span class="stat-label">
+                        UNIQUE HASHTAGS
+                    </span>
+
+                    <strong id="totalHashtags">—</strong>
+
+                    <span class="stat-note">
+                        detected
+                    </span>
+
+                </div>
+
+
+                <div class="stat-card accent-card">
+
+                    <span class="stat-label">
+                        TOTAL ENGAGEMENT
+                    </span>
+
+                    <strong id="totalEngagement">—</strong>
+
+                    <span class="stat-note">
+                        likes + shares
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- HASHTAGS -->
+
+        <section id="hashtags" class="section">
+
+            <div class="section-heading">
+
+                <div>
+
+                    <span class="section-number">02</span>
+
+                    <div>
+                        <h3>Hashtag Frequency</h3>
+
+                        <p>
+                            Problem 1 · Frequency of hashtags across posts
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="chart-panel">
+
+                <div class="panel-header">
+
+                    <div>
+                        <span class="panel-label">
+                            HASHTAG DISTRIBUTION
+                        </span>
+
+                        <h4>Usage frequency</h4>
+                    </div>
+
+                    <span class="problem-tag">
+                        MAPREDUCE · P1
+                    </span>
+
+                </div>
+
+                <div class="chart-container">
+
+                    <canvas id="hashtagChart"></canvas>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ENGAGEMENT -->
+
+        <section id="engagement" class="section">
+
+            <div class="section-heading">
+
+                <div>
+
+                    <span class="section-number">03</span>
+
+                    <div>
+                        <h3>Engagement Analysis</h3>
+
+                        <p>
+                            Problems 2 & 3 · Engagement patterns
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="two-column">
+
+
+                <div class="chart-panel">
+
+                    <div class="panel-header">
+
+                        <div>
+
+                            <span class="panel-label">
+                                PROBLEM 2
+                            </span>
+
+                            <h4>Average engagement</h4>
+
+                        </div>
+
+                        <span class="problem-tag">
+                            LIKES + SHARES
+                        </span>
+
+                    </div>
+
+                    <div class="chart-container">
+
+                        <canvas id="engagementChart"></canvas>
+
+                    </div>
+
+                </div>
+
+
+                <div class="highlight-panel">
+
+                    <span class="panel-label">
+                        PROBLEM 3
+                    </span>
+
+                    <h4>Highest engaged user</h4>
+
+                    <div class="user-highlight">
+
+                        <div class="user-avatar" id="userInitial">
+                            —
+                        </div>
+
+                        <div>
+
+                            <strong id="topUser">
+                                —
+                            </strong>
+
+                            <span>
+                                Total engagement
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                    <div class="engagement-value">
+
+                        <strong id="topUserEngagement">
+                            —
+                        </strong>
+
+                        <span>
+                            engagements
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ACTIVITY -->
+
+        <section id="activity" class="section">
+
+            <div class="section-heading">
+
+                <div>
+
+                    <span class="section-number">04</span>
+
+                    <div>
+
+                        <h3>Posting Activity</h3>
+
+                        <p>
+                            Problem 4 · Distribution by posting hour
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="chart-panel">
+
+                <div class="panel-header">
+
+                    <div>
+
+                        <span class="panel-label">
+                            POSTING HOURS
+                        </span>
+
+                        <h4>Activity across the day</h4>
+
+                    </div>
+
+                    <span class="problem-tag">
+                        MAPREDUCE · P4
+                    </span>
+
+                </div>
+
+                <div class="chart-container activity-chart">
+
+                    <canvas id="activityChart"></canvas>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- RELATIONSHIPS -->
+
+        <section id="relationships" class="section">
+
+            <div class="section-heading">
+
+                <div>
+
+                    <span class="section-number">05</span>
+
+                    <div>
+
+                        <h3>Hashtag Relationships</h3>
+
+                        <p>
+                            Problem 5 · Hashtag co-occurrence
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="relationship-panel">
+
+                <div class="panel-header">
+
+                    <div>
+
+                        <span class="panel-label">
+                            CO-OCCURRENCE
+                        </span>
+
+                        <h4>Hashtags appearing together</h4>
+
+                    </div>
+
+                    <span class="problem-tag">
+                        MAPREDUCE · P5
+                    </span>
+
+                </div>
+
+
+                <div class="relationship-controls">
+
+                    <input
+                        type="text"
+                        id="relationshipSearch"
+                        placeholder="Search hashtag..."
+                    >
+
+                    <select id="relationshipSort">
+
+                        <option value="count">
+                            Highest frequency
+                        </option>
+
+                        <option value="alpha">
+                            Alphabetical
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <div class="table-wrapper">
+
+                    <table>
+
+                        <thead>
+
+                            <tr>
+
+                                <th>HASHTAG A</th>
+
+                                <th>HASHTAG B</th>
+
+                                <th>CO-OCCURRENCES</th>
+
+                            </tr>
+
+                        </thead>
+
+                        <tbody id="relationshipTable">
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- COMPARISON -->
+
+        <section id="comparison" class="section">
+
+            <div class="section-heading">
+
+                <div>
+
+                    <span class="section-number">06</span>
+
+                    <div>
+
+                        <h3>Processing Comparison</h3>
+
+                        <p>
+                            MapReduce, Hive and Pig
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="comparison-note">
+
+        <span class="panel-label">
+            OBSERVATION
+        </span>
+
+        <p>
+            Java MapReduce and Hive produced nearly identical
+            execution times in this benchmark, while Pig required
+            additional processing stages and took longer. The
+            implementation approaches differ: Java provides
+            fine-grained control, while Hive and Pig provide
+            higher-level data-processing abstractions.
+        </p>
+
+    </div>
+
+        </section>
+
+
+        <!-- FOOTER -->
+
+        <footer>
+
+            <span>
+                CHATTERWAVE · HADOOP MAPREDUCE ANALYTICS
+            </span>
+
+            <span>
+                <span class="status-dot"></span>
+                LIVE DATA VIEW
+            </span>
+
+        </footer>
+
+    </main>
+
+
+    <!-- CHART.JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

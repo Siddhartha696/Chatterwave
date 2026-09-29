@@ -1,0 +1,445 @@
+{
+    "overview": {
+        "total_posts": 50,
+        "total_users": 12,
+        "total_hashtags": 21,
+        "total_engagement": 10078,
+        "analysis_problems": 5
+    },
+    "problem1": [
+        {
+            "hashtag": "#ai",
+            "count": 17
+        },
+        {
+            "hashtag": "#analytics",
+            "count": 8
+        },
+        {
+            "hashtag": "#backend",
+            "count": 1
+        },
+        {
+            "hashtag": "#bigdata",
+            "count": 6
+        },
+        {
+            "hashtag": "#cloud",
+            "count": 10
+        },
+        {
+            "hashtag": "#cybersecurity",
+            "count": 3
+        },
+        {
+            "hashtag": "#data",
+            "count": 13
+        },
+        {
+            "hashtag": "#devops",
+            "count": 2
+        },
+        {
+            "hashtag": "#education",
+            "count": 3
+        },
+        {
+            "hashtag": "#hadoop",
+            "count": 7
+        },
+        {
+            "hashtag": "#healthcare",
+            "count": 2
+        },
+        {
+            "hashtag": "#java",
+            "count": 5
+        },
+        {
+            "hashtag": "#javascript",
+            "count": 2
+        },
+        {
+            "hashtag": "#mapreduce",
+            "count": 3
+        },
+        {
+            "hashtag": "#ml",
+            "count": 6
+        },
+        {
+            "hashtag": "#programming",
+            "count": 2
+        },
+        {
+            "hashtag": "#python",
+            "count": 5
+        },
+        {
+            "hashtag": "#react",
+            "count": 1
+        },
+        {
+            "hashtag": "#startup",
+            "count": 2
+        },
+        {
+            "hashtag": "#tech",
+            "count": 11
+        },
+        {
+            "hashtag": "#webdev",
+            "count": 3
+        }
+    ],
+    "problem2": [
+        {
+            "hashtag": "#ai",
+            "average": 245.06
+        },
+        {
+            "hashtag": "#analytics",
+            "average": 216.5
+        },
+        {
+            "hashtag": "#backend",
+            "average": 160.0
+        },
+        {
+            "hashtag": "#bigdata",
+            "average": 180.5
+        },
+        {
+            "hashtag": "#cloud",
+            "average": 198.9
+        },
+        {
+            "hashtag": "#cybersecurity",
+            "average": 160.67
+        },
+        {
+            "hashtag": "#data",
+            "average": 214.85
+        },
+        {
+            "hashtag": "#devops",
+            "average": 186.0
+        },
+        {
+            "hashtag": "#education",
+            "average": 174.0
+        },
+        {
+            "hashtag": "#hadoop",
+            "average": 176.0
+        },
+        {
+            "hashtag": "#healthcare",
+            "average": 224.5
+        },
+        {
+            "hashtag": "#java",
+            "average": 158.4
+        },
+        {
+            "hashtag": "#javascript",
+            "average": 181.0
+        },
+        {
+            "hashtag": "#mapreduce",
+            "average": 190.0
+        },
+        {
+            "hashtag": "#ml",
+            "average": 271.67
+        },
+        {
+            "hashtag": "#programming",
+            "average": 132.0
+        },
+        {
+            "hashtag": "#python",
+            "average": 206.0
+        },
+        {
+            "hashtag": "#react",
+            "average": 186.0
+        },
+        {
+            "hashtag": "#startup",
+            "average": 253.5
+        },
+        {
+            "hashtag": "#tech",
+            "average": 210.36
+        },
+        {
+            "hashtag": "#webdev",
+            "average": 182.67
+        }
+    ],
+    "problem3": {
+        "user": "Aarav",
+        "engagement": 1254
+    },
+    "problem4": [
+        {
+            "hour": "08",
+            "count": 4
+        },
+        {
+            "hour": "09",
+            "count": 5
+        },
+        {
+            "hour": "10",
+            "count": 5
+        },
+        {
+            "hour": "11",
+            "count": 4
+        },
+        {
+            "hour": "12",
+            "count": 5
+        },
+        {
+            "hour": "13",
+            "count": 3
+        },
+        {
+            "hour": "14",
+            "count": 3
+        },
+        {
+            "hour": "15",
+            "count": 3
+        },
+        {
+            "hour": "16",
+            "count": 4
+        },
+        {
+            "hour": "17",
+            "count": 4
+        },
+        {
+            "hour": "18",
+            "count": 4
+        },
+        {
+            "hour": "19",
+            "count": 3
+        },
+        {
+            "hour": "20",
+            "count": 2
+        },
+        {
+            "hour": "21",
+            "count": 1
+        }
+    ],
+    "problem5": [
+        {
+            "hashtag1": "#ai",
+            "hashtag2": "#analytics",
+            "count": 3
+        },
+        {
+            "hashtag1": "#ai",
+            "hashtag2": "#cloud",
+            "count": 2
+        },
+        {
+            "hashtag1": "#ai",
+            "hashtag2": "#cybersecurity",
+            "count": 1
+        },
+        {
+            "hashtag1": "#ai",
+            "hashtag2": "#data",
+            "count": 5
+        },
+        {
+            "hashtag1": "#ai",
+            "hashtag2": "#education",
+            "count": 2
+        },
+        {
+            "hashtag1": "#ai",
+            "hashtag2": "#healthcare",
+            "count": 1
+        },
+        {
+            "hashtag1": "#ai",
+            "hashtag2": "#ml",
+            "count": 4
+        },
+        {
+            "hashtag1": "#ai",
+            "hashtag2": "#startup",
+            "count": 1
+        },
+        {
+            "hashtag1": "#ai",
+            "hashtag2": "#tech",
+            "count": 4
+        },
+        {
+            "hashtag1": "#analytics",
+            "hashtag2": "#bigdata",
+            "count": 1
+        },
+        {
+            "hashtag1": "#analytics",
+            "hashtag2": "#cloud",
+            "count": 1
+        },
+        {
+            "hashtag1": "#analytics",
+            "hashtag2": "#data",
+            "count": 6
+        },
+        {
+            "hashtag1": "#analytics",
+            "hashtag2": "#python",
+            "count": 1
+        },
+        {
+            "hashtag1": "#backend",
+            "hashtag2": "#java",
+            "count": 1
+        },
+        {
+            "hashtag1": "#bigdata",
+            "hashtag2": "#cloud",
+            "count": 1
+        },
+        {
+            "hashtag1": "#bigdata",
+            "hashtag2": "#data",
+            "count": 1
+        },
+        {
+            "hashtag1": "#bigdata",
+            "hashtag2": "#hadoop",
+            "count": 4
+        },
+        {
+            "hashtag1": "#bigdata",
+            "hashtag2": "#mapreduce",
+            "count": 1
+        },
+        {
+            "hashtag1": "#cloud",
+            "hashtag2": "#cybersecurity",
+            "count": 1
+        },
+        {
+            "hashtag1": "#cloud",
+            "hashtag2": "#data",
+            "count": 2
+        },
+        {
+            "hashtag1": "#cloud",
+            "hashtag2": "#devops",
+            "count": 2
+        },
+        {
+            "hashtag1": "#cloud",
+            "hashtag2": "#healthcare",
+            "count": 1
+        },
+        {
+            "hashtag1": "#cloud",
+            "hashtag2": "#tech",
+            "count": 3
+        },
+        {
+            "hashtag1": "#cybersecurity",
+            "hashtag2": "#tech",
+            "count": 1
+        },
+        {
+            "hashtag1": "#data",
+            "hashtag2": "#hadoop",
+            "count": 2
+        },
+        {
+            "hashtag1": "#data",
+            "hashtag2": "#ml",
+            "count": 1
+        },
+        {
+            "hashtag1": "#data",
+            "hashtag2": "#python",
+            "count": 3
+        },
+        {
+            "hashtag1": "#devops",
+            "hashtag2": "#tech",
+            "count": 1
+        },
+        {
+            "hashtag1": "#education",
+            "hashtag2": "#tech",
+            "count": 1
+        },
+        {
+            "hashtag1": "#hadoop",
+            "hashtag2": "#java",
+            "count": 1
+        },
+        {
+            "hashtag1": "#hadoop",
+            "hashtag2": "#mapreduce",
+            "count": 2
+        },
+        {
+            "hashtag1": "#java",
+            "hashtag2": "#mapreduce",
+            "count": 1
+        },
+        {
+            "hashtag1": "#java",
+            "hashtag2": "#programming",
+            "count": 2
+        },
+        {
+            "hashtag1": "#javascript",
+            "hashtag2": "#tech",
+            "count": 1
+        },
+        {
+            "hashtag1": "#javascript",
+            "hashtag2": "#webdev",
+            "count": 2
+        },
+        {
+            "hashtag1": "#ml",
+            "hashtag2": "#python",
+            "count": 2
+        },
+        {
+            "hashtag1": "#ml",
+            "hashtag2": "#tech",
+            "count": 2
+        },
+        {
+            "hashtag1": "#react",
+            "hashtag2": "#webdev",
+            "count": 1
+        },
+        {
+            "hashtag1": "#startup",
+            "hashtag2": "#tech",
+            "count": 1
+        },
+        {
+            "hashtag1": "#tech",
+            "hashtag2": "#webdev",
+            "count": 1
+        }
+    ]
+}

@@ -15,11 +15,20 @@ public class EngagementMapper
     private final Text user = new Text();
     private final IntWritable engagement = new IntWritable();
 
-    private static final Pattern LIKES =
+    private static final Pattern OLD_LIKES =
             Pattern.compile("likes=(\\d+)");
 
-    private static final Pattern SHARES =
+    private static final Pattern OLD_SHARES =
             Pattern.compile("shares=(\\d+)");
+
+    private static final Pattern NEW_USER =
+            Pattern.compile("(?m)^User:\\s*(.+)$");
+
+    private static final Pattern NEW_LIKES =
+            Pattern.compile("(?m)^Likes:\\s*(\\d+)$");
+
+    private static final Pattern NEW_SHARES =
+            Pattern.compile("(?m)^Shares:\\s*(\\d+)$");
 
     @Override
     protected void map(
@@ -30,28 +39,85 @@ public class EngagementMapper
 
         String post = value.toString().trim();
 
-        String[] lines = post.split("\\r?\\n");
-
-        if (lines.length == 0)
+        if (post.isEmpty())
             return;
 
-        String metadata = lines[0].trim();
+        String username;
+        int likes;
+        int shares;
 
-        String[] fields = metadata.split("\\|");
+        /*
+         * OLD FORMAT
+         * p00001|User0328|timestamp|hashtags|likes=377|shares=26
+         */
+        if (post.contains("|")) {
 
-        if (fields.length < 6)
-            return;
+            String[] lines = post.split("\\r?\\n");
 
-        String username = fields[1].trim();
+            if (lines.length == 0)
+                return;
 
-        Matcher likesMatcher = LIKES.matcher(metadata);
-        Matcher sharesMatcher = SHARES.matcher(metadata);
+            String metadata = lines[0].trim();
 
-        if (!likesMatcher.find() || !sharesMatcher.find())
-            return;
+            String[] fields = metadata.split("\\|");
 
-        int likes = Integer.parseInt(likesMatcher.group(1));
-        int shares = Integer.parseInt(sharesMatcher.group(1));
+            if (fields.length < 6)
+                return;
+
+            username = fields[1].trim();
+
+            Matcher likesMatcher =
+                    OLD_LIKES.matcher(metadata);
+
+            Matcher sharesMatcher =
+                    OLD_SHARES.matcher(metadata);
+
+            if (!likesMatcher.find() ||
+                !sharesMatcher.find())
+                return;
+
+            likes =
+                    Integer.parseInt(likesMatcher.group(1));
+
+            shares =
+                    Integer.parseInt(sharesMatcher.group(1));
+        }
+
+        /*
+         * NEW FORMAT
+         * User: Explorer053
+         * Timestamp: ...
+         * Likes: 287
+         * Shares: 50
+         * Text: ...
+         */
+        else {
+
+            Matcher userMatcher =
+                    NEW_USER.matcher(post);
+
+            Matcher likesMatcher =
+                    NEW_LIKES.matcher(post);
+
+            Matcher sharesMatcher =
+                    NEW_SHARES.matcher(post);
+
+            if (!userMatcher.find() ||
+                !likesMatcher.find() ||
+                !sharesMatcher.find())
+                return;
+
+            username =
+                    userMatcher.group(1).trim();
+
+            likes =
+                    Integer.parseInt(
+                            likesMatcher.group(1));
+
+            shares =
+                    Integer.parseInt(
+                            sharesMatcher.group(1));
+        }
 
         int total = likes + shares;
 

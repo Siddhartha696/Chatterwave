@@ -1,11 +1,28 @@
-﻿# Hadoop dependencies
+# Java build artifacts
+*.class
+build/
+*.jar
+
+# Hadoop dependencies
 hadoop-libs/
 
-# Pig installation/archive
+# Hadoop output
+output/
+analysis_runs/
+
+# IDE files
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Local Hive / Derby files
+derby.log
+
+# Pig installation/archive/logs
 pig-0.17.0/
 pig-0.17.0.tar.gz
+pig_*.log
 
-# Build/output artifacts
-build/
-*.class
-*.jar
+# Python cache
+__pycache__/

@@ -1,0 +1,1227 @@
+{
+    "overview": {
+        "total_posts": 20000,
+        "total_users": 500,
+        "total_hashtags": 20,
+        "total_engagement": 7026739,
+        "analysis_problems": 5
+    },
+    "problem1": [
+        {
+            "hashtag": "#backpacking",
+            "count": 2420
+        },
+        {
+            "hashtag": "#beachexploration",
+            "count": 2575
+        },
+        {
+            "hashtag": "#camping",
+            "count": 2501
+        },
+        {
+            "hashtag": "#caveexpedition",
+            "count": 2539
+        },
+        {
+            "hashtag": "#climbing",
+            "count": 2510
+        },
+        {
+            "hashtag": "#exploration",
+            "count": 2452
+        },
+        {
+            "hashtag": "#hiking",
+            "count": 2550
+        },
+        {
+            "hashtag": "#kayaking",
+            "count": 2576
+        },
+        {
+            "hashtag": "#mountainclimbing",
+            "count": 2448
+        },
+        {
+            "hashtag": "#paragliding",
+            "count": 2479
+        },
+        {
+            "hashtag": "#rafting",
+            "count": 2526
+        },
+        {
+            "hashtag": "#rockclimbing",
+            "count": 2514
+        },
+        {
+            "hashtag": "#safari",
+            "count": 2499
+        },
+        {
+            "hashtag": "#scubadiving",
+            "count": 2479
+        },
+        {
+            "hashtag": "#snorkeling",
+            "count": 2425
+        },
+        {
+            "hashtag": "#trailrunning",
+            "count": 2483
+        },
+        {
+            "hashtag": "#trekking",
+            "count": 2504
+        },
+        {
+            "hashtag": "#waterfallhiking",
+            "count": 2459
+        },
+        {
+            "hashtag": "#wilderness",
+            "count": 2530
+        },
+        {
+            "hashtag": "#ziplining",
+            "count": 2492
+        }
+    ],
+    "problem2": [
+        {
+            "hashtag": "#backpacking",
+            "average": 354.88
+        },
+        {
+            "hashtag": "#beachexploration",
+            "average": 356.95
+        },
+        {
+            "hashtag": "#camping",
+            "average": 349.78
+        },
+        {
+            "hashtag": "#caveexpedition",
+            "average": 355.68
+        },
+        {
+            "hashtag": "#climbing",
+            "average": 350.3
+        },
+        {
+            "hashtag": "#exploration",
+            "average": 351.23
+        },
+        {
+            "hashtag": "#hiking",
+            "average": 352.75
+        },
+        {
+            "hashtag": "#kayaking",
+            "average": 348.02
+        },
+        {
+            "hashtag": "#mountainclimbing",
+            "average": 352.65
+        },
+        {
+            "hashtag": "#paragliding",
+            "average": 350.07
+        },
+        {
+            "hashtag": "#rafting",
+            "average": 353.3
+        },
+        {
+            "hashtag": "#rockclimbing",
+            "average": 347.0
+        },
+        {
+            "hashtag": "#safari",
+            "average": 350.12
+        },
+        {
+            "hashtag": "#scubadiving",
+            "average": 356.47
+        },
+        {
+            "hashtag": "#snorkeling",
+            "average": 351.13
+        },
+        {
+            "hashtag": "#trailrunning",
+            "average": 351.23
+        },
+        {
+            "hashtag": "#trekking",
+            "average": 358.07
+        },
+        {
+            "hashtag": "#waterfallhiking",
+            "average": 350.69
+        },
+        {
+            "hashtag": "#wilderness",
+            "average": 342.03
+        },
+        {
+            "hashtag": "#ziplining",
+            "average": 354.23
+        }
+    ],
+    "problem3": {
+        "user": "Explorer189",
+        "engagement": 23076
+    },
+    "problem4": [
+        {
+            "hour": "00",
+            "count": 849
+        },
+        {
+            "hour": "01",
+            "count": 857
+        },
+        {
+            "hour": "02",
+            "count": 836
+        },
+        {
+            "hour": "03",
+            "count": 818
+        },
+        {
+            "hour": "04",
+            "count": 871
+        },
+        {
+            "hour": "05",
+            "count": 807
+        },
+        {
+            "hour": "06",
+            "count": 816
+        },
+        {
+            "hour": "07",
+            "count": 847
+        },
+        {
+            "hour": "08",
+            "count": 796
+        },
+        {
+            "hour": "09",
+            "count": 849
+        },
+        {
+            "hour": "10",
+            "count": 823
+        },
+        {
+            "hour": "11",
+            "count": 859
+        },
+        {
+            "hour": "12",
+            "count": 824
+        },
+        {
+            "hour": "13",
+            "count": 831
+        },
+        {
+            "hour": "14",
+            "count": 844
+        },
+        {
+            "hour": "15",
+            "count": 832
+        },
+        {
+            "hour": "16",
+            "count": 795
+        },
+        {
+            "hour": "17",
+            "count": 834
+        },
+        {
+            "hour": "18",
+            "count": 890
+        },
+        {
+            "hour": "19",
+            "count": 842
+        },
+        {
+            "hour": "20",
+            "count": 835
+        },
+        {
+            "hour": "21",
+            "count": 764
+        },
+        {
+            "hour": "22",
+            "count": 857
+        },
+        {
+            "hour": "23",
+            "count": 824
+        }
+    ],
+    "problem5": [
+        {
+            "hashtag1": "#backpacking",
+            "hashtag2": "#beachexploration",
+            "count": 263
+        },
+        {
+            "hashtag1": "#backpacking",
+            "hashtag2": "#camping",
+            "count": 279
+        },
+        {
+            "hashtag1": "#backpacking",
+            "hashtag2": "#caveexpedition",
+            "count": 279
+        },
+        {
+            "hashtag1": "#backpacking",
+            "hashtag2": "#climbing",
+            "count": 230
+        },
+        {
+            "hashtag1": "#backpacking",
+            "hashtag2": "#exploration",
+            "count": 258
+        },
+        {
+            "hashtag1": "#backpacking",
+            "hashtag2": "#hiking",
+            "count": 236
+        },
+        {
+            "hashtag1": "#backpacking",
+            "hashtag2": "#kayaking",
+            "count": 271
+        },
+        {
+            "hashtag1": "#backpacking",
+            "hashtag2": "#mountainclimbing",
+            "count": 272
+        },
+        {
+            "hashtag1": "#backpacking",
+            "hashtag2": "#paragliding",
+            "count": 262
+        },
+        {
+            "hashtag1": "#backpacking",
+            "hashtag2": "#rafting",
+            "count": 243
+        },
+        {
+            "hashtag1": "#backpacking",
+            "hashtag2": "#rockclimbing",
+            "count": 264
+        },
+        {
+            "hashtag1": "#backpacking",
+            "hashtag2": "#safari",
+            "count": 244
+        },
+        {
+            "hashtag1": "#backpacking",
+            "hashtag2": "#scubadiving",
+            "count": 265
+        },
+        {
+            "hashtag1": "#backpacking",
+            "hashtag2": "#snorkeling",
+            "count": 259
+        },
+        {
+            "hashtag1": "#backpacking",
+            "hashtag2": "#trailrunning",
+            "count": 249
+        },
+        {
+            "hashtag1": "#backpacking",
+            "hashtag2": "#trekking",
+            "count": 257
+        },
+        {
+            "hashtag1": "#backpacking",
+            "hashtag2": "#waterfallhiking",
+            "count": 233
+        },
+        {
+            "hashtag1": "#backpacking",
+            "hashtag2": "#wilderness",
+            "count": 265
+        },
+        {
+            "hashtag1": "#backpacking",
+            "hashtag2": "#ziplining",
+            "count": 254
+        },
+        {
+            "hashtag1": "#beachexploration",
+            "hashtag2": "#camping",
+            "count": 293
+        },
+        {
+            "hashtag1": "#beachexploration",
+            "hashtag2": "#caveexpedition",
+            "count": 271
+        },
+        {
+            "hashtag1": "#beachexploration",
+            "hashtag2": "#climbing",
+            "count": 261
+        },
+        {
+            "hashtag1": "#beachexploration",
+            "hashtag2": "#exploration",
+            "count": 293
+        },
+        {
+            "hashtag1": "#beachexploration",
+            "hashtag2": "#hiking",
+            "count": 271
+        },
+        {
+            "hashtag1": "#beachexploration",
+            "hashtag2": "#kayaking",
+            "count": 262
+        },
+        {
+            "hashtag1": "#beachexploration",
+            "hashtag2": "#mountainclimbing",
+            "count": 289
+        },
+        {
+            "hashtag1": "#beachexploration",
+            "hashtag2": "#paragliding",
+            "count": 292
+        },
+        {
+            "hashtag1": "#beachexploration",
+            "hashtag2": "#rafting",
+            "count": 295
+        },
+        {
+            "hashtag1": "#beachexploration",
+            "hashtag2": "#rockclimbing",
+            "count": 259
+        },
+        {
+            "hashtag1": "#beachexploration",
+            "hashtag2": "#safari",
+            "count": 279
+        },
+        {
+            "hashtag1": "#beachexploration",
+            "hashtag2": "#scubadiving",
+            "count": 275
+        },
+        {
+            "hashtag1": "#beachexploration",
+            "hashtag2": "#snorkeling",
+            "count": 258
+        },
+        {
+            "hashtag1": "#beachexploration",
+            "hashtag2": "#trailrunning",
+            "count": 284
+        },
+        {
+            "hashtag1": "#beachexploration",
+            "hashtag2": "#trekking",
+            "count": 268
+        },
+        {
+            "hashtag1": "#beachexploration",
+            "hashtag2": "#waterfallhiking",
+            "count": 246
+        },
+        {
+            "hashtag1": "#beachexploration",
+            "hashtag2": "#wilderness",
+            "count": 276
+        },
+        {
+            "hashtag1": "#beachexploration",
+            "hashtag2": "#ziplining",
+            "count": 253
+        },
+        {
+            "hashtag1": "#camping",
+            "hashtag2": "#caveexpedition",
+            "count": 251
+        },
+        {
+            "hashtag1": "#camping",
+            "hashtag2": "#climbing",
+            "count": 245
+        },
+        {
+            "hashtag1": "#camping",
+            "hashtag2": "#exploration",
+            "count": 273
+        },
+        {
+            "hashtag1": "#camping",
+            "hashtag2": "#hiking",
+            "count": 276
+        },
+        {
+            "hashtag1": "#camping",
+            "hashtag2": "#kayaking",
+            "count": 256
+        },
+        {
+            "hashtag1": "#camping",
+            "hashtag2": "#mountainclimbing",
+            "count": 268
+        },
+        {
+            "hashtag1": "#camping",
+            "hashtag2": "#paragliding",
+            "count": 248
+        },
+        {
+            "hashtag1": "#camping",
+            "hashtag2": "#rafting",
+            "count": 272
+        },
+        {
+            "hashtag1": "#camping",
+            "hashtag2": "#rockclimbing",
+            "count": 270
+        },
+        {
+            "hashtag1": "#camping",
+            "hashtag2": "#safari",
+            "count": 249
+        },
+        {
+            "hashtag1": "#camping",
+            "hashtag2": "#scubadiving",
+            "count": 264
+        },
+        {
+            "hashtag1": "#camping",
+            "hashtag2": "#snorkeling",
+            "count": 262
+        },
+        {
+            "hashtag1": "#camping",
+            "hashtag2": "#trailrunning",
+            "count": 250
+        },
+        {
+            "hashtag1": "#camping",
+            "hashtag2": "#trekking",
+            "count": 272
+        },
+        {
+            "hashtag1": "#camping",
+            "hashtag2": "#waterfallhiking",
+            "count": 283
+        },
+        {
+            "hashtag1": "#camping",
+            "hashtag2": "#wilderness",
+            "count": 264
+        },
+        {
+            "hashtag1": "#camping",
+            "hashtag2": "#ziplining",
+            "count": 271
+        },
+        {
+            "hashtag1": "#caveexpedition",
+            "hashtag2": "#climbing",
+            "count": 283
+        },
+        {
+            "hashtag1": "#caveexpedition",
+            "hashtag2": "#exploration",
+            "count": 263
+        },
+        {
+            "hashtag1": "#caveexpedition",
+            "hashtag2": "#hiking",
+            "count": 286
+        },
+        {
+            "hashtag1": "#caveexpedition",
+            "hashtag2": "#kayaking",
+            "count": 281
+        },
+        {
+            "hashtag1": "#caveexpedition",
+            "hashtag2": "#mountainclimbing",
+            "count": 250
+        },
+        {
+            "hashtag1": "#caveexpedition",
+            "hashtag2": "#paragliding",
+            "count": 268
+        },
+        {
+            "hashtag1": "#caveexpedition",
+            "hashtag2": "#rafting",
+            "count": 280
+        },
+        {
+            "hashtag1": "#caveexpedition",
+            "hashtag2": "#rockclimbing",
+            "count": 294
+        },
+        {
+            "hashtag1": "#caveexpedition",
+            "hashtag2": "#safari",
+            "count": 246
+        },
+        {
+            "hashtag1": "#caveexpedition",
+            "hashtag2": "#scubadiving",
+            "count": 247
+        },
+        {
+            "hashtag1": "#caveexpedition",
+            "hashtag2": "#snorkeling",
+            "count": 276
+        },
+        {
+            "hashtag1": "#caveexpedition",
+            "hashtag2": "#trailrunning",
+            "count": 264
+        },
+        {
+            "hashtag1": "#caveexpedition",
+            "hashtag2": "#trekking",
+            "count": 269
+        },
+        {
+            "hashtag1": "#caveexpedition",
+            "hashtag2": "#waterfallhiking",
+            "count": 250
+        },
+        {
+            "hashtag1": "#caveexpedition",
+            "hashtag2": "#wilderness",
+            "count": 253
+        },
+        {
+            "hashtag1": "#caveexpedition",
+            "hashtag2": "#ziplining",
+            "count": 281
+        },
+        {
+            "hashtag1": "#climbing",
+            "hashtag2": "#exploration",
+            "count": 261
+        },
+        {
+            "hashtag1": "#climbing",
+            "hashtag2": "#hiking",
+            "count": 283
+        },
+        {
+            "hashtag1": "#climbing",
+            "hashtag2": "#kayaking",
+            "count": 243
+        },
+        {
+            "hashtag1": "#climbing",
+            "hashtag2": "#mountainclimbing",
+            "count": 252
+        },
+        {
+            "hashtag1": "#climbing",
+            "hashtag2": "#paragliding",
+            "count": 255
+        },
+        {
+            "hashtag1": "#climbing",
+            "hashtag2": "#rafting",
+            "count": 267
+        },
+        {
+            "hashtag1": "#climbing",
+            "hashtag2": "#rockclimbing",
+            "count": 278
+        },
+        {
+            "hashtag1": "#climbing",
+            "hashtag2": "#safari",
+            "count": 293
+        },
+        {
+            "hashtag1": "#climbing",
+            "hashtag2": "#scubadiving",
+            "count": 278
+        },
+        {
+            "hashtag1": "#climbing",
+            "hashtag2": "#snorkeling",
+            "count": 267
+        },
+        {
+            "hashtag1": "#climbing",
+            "hashtag2": "#trailrunning",
+            "count": 268
+        },
+        {
+            "hashtag1": "#climbing",
+            "hashtag2": "#trekking",
+            "count": 270
+        },
+        {
+            "hashtag1": "#climbing",
+            "hashtag2": "#waterfallhiking",
+            "count": 254
+        },
+        {
+            "hashtag1": "#climbing",
+            "hashtag2": "#wilderness",
+            "count": 266
+        },
+        {
+            "hashtag1": "#climbing",
+            "hashtag2": "#ziplining",
+            "count": 247
+        },
+        {
+            "hashtag1": "#exploration",
+            "hashtag2": "#hiking",
+            "count": 244
+        },
+        {
+            "hashtag1": "#exploration",
+            "hashtag2": "#kayaking",
+            "count": 281
+        },
+        {
+            "hashtag1": "#exploration",
+            "hashtag2": "#mountainclimbing",
+            "count": 251
+        },
+        {
+            "hashtag1": "#exploration",
+            "hashtag2": "#paragliding",
+            "count": 256
+        },
+        {
+            "hashtag1": "#exploration",
+            "hashtag2": "#rafting",
+            "count": 286
+        },
+        {
+            "hashtag1": "#exploration",
+            "hashtag2": "#rockclimbing",
+            "count": 244
+        },
+        {
+            "hashtag1": "#exploration",
+            "hashtag2": "#safari",
+            "count": 258
+        },
+        {
+            "hashtag1": "#exploration",
+            "hashtag2": "#scubadiving",
+            "count": 234
+        },
+        {
+            "hashtag1": "#exploration",
+            "hashtag2": "#snorkeling",
+            "count": 258
+        },
+        {
+            "hashtag1": "#exploration",
+            "hashtag2": "#trailrunning",
+            "count": 280
+        },
+        {
+            "hashtag1": "#exploration",
+            "hashtag2": "#trekking",
+            "count": 259
+        },
+        {
+            "hashtag1": "#exploration",
+            "hashtag2": "#waterfallhiking",
+            "count": 254
+        },
+        {
+            "hashtag1": "#exploration",
+            "hashtag2": "#wilderness",
+            "count": 259
+        },
+        {
+            "hashtag1": "#exploration",
+            "hashtag2": "#ziplining",
+            "count": 239
+        },
+        {
+            "hashtag1": "#hiking",
+            "hashtag2": "#kayaking",
+            "count": 258
+        },
+        {
+            "hashtag1": "#hiking",
+            "hashtag2": "#mountainclimbing",
+            "count": 254
+        },
+        {
+            "hashtag1": "#hiking",
+            "hashtag2": "#paragliding",
+            "count": 252
+        },
+        {
+            "hashtag1": "#hiking",
+            "hashtag2": "#rafting",
+            "count": 272
+        },
+        {
+            "hashtag1": "#hiking",
+            "hashtag2": "#rockclimbing",
+            "count": 264
+        },
+        {
+            "hashtag1": "#hiking",
+            "hashtag2": "#safari",
+            "count": 248
+        },
+        {
+            "hashtag1": "#hiking",
+            "hashtag2": "#scubadiving",
+            "count": 262
+        },
+        {
+            "hashtag1": "#hiking",
+            "hashtag2": "#snorkeling",
+            "count": 266
+        },
+        {
+            "hashtag1": "#hiking",
+            "hashtag2": "#trailrunning",
+            "count": 263
+        },
+        {
+            "hashtag1": "#hiking",
+            "hashtag2": "#trekking",
+            "count": 282
+        },
+        {
+            "hashtag1": "#hiking",
+            "hashtag2": "#waterfallhiking",
+            "count": 240
+        },
+        {
+            "hashtag1": "#hiking",
+            "hashtag2": "#wilderness",
+            "count": 297
+        },
+        {
+            "hashtag1": "#hiking",
+            "hashtag2": "#ziplining",
+            "count": 296
+        },
+        {
+            "hashtag1": "#kayaking",
+            "hashtag2": "#mountainclimbing",
+            "count": 263
+        },
+        {
+            "hashtag1": "#kayaking",
+            "hashtag2": "#paragliding",
+            "count": 279
+        },
+        {
+            "hashtag1": "#kayaking",
+            "hashtag2": "#rafting",
+            "count": 271
+        },
+        {
+            "hashtag1": "#kayaking",
+            "hashtag2": "#rockclimbing",
+            "count": 263
+        },
+        {
+            "hashtag1": "#kayaking",
+            "hashtag2": "#safari",
+            "count": 275
+        },
+        {
+            "hashtag1": "#kayaking",
+            "hashtag2": "#scubadiving",
+            "count": 294
+        },
+        {
+            "hashtag1": "#kayaking",
+            "hashtag2": "#snorkeling",
+            "count": 263
+        },
+        {
+            "hashtag1": "#kayaking",
+            "hashtag2": "#trailrunning",
+            "count": 251
+        },
+        {
+            "hashtag1": "#kayaking",
+            "hashtag2": "#trekking",
+            "count": 266
+        },
+        {
+            "hashtag1": "#kayaking",
+            "hashtag2": "#waterfallhiking",
+            "count": 267
+        },
+        {
+            "hashtag1": "#kayaking",
+            "hashtag2": "#wilderness",
+            "count": 287
+        },
+        {
+            "hashtag1": "#kayaking",
+            "hashtag2": "#ziplining",
+            "count": 278
+        },
+        {
+            "hashtag1": "#mountainclimbing",
+            "hashtag2": "#paragliding",
+            "count": 252
+        },
+        {
+            "hashtag1": "#mountainclimbing",
+            "hashtag2": "#rafting",
+            "count": 267
+        },
+        {
+            "hashtag1": "#mountainclimbing",
+            "hashtag2": "#rockclimbing",
+            "count": 259
+        },
+        {
+            "hashtag1": "#mountainclimbing",
+            "hashtag2": "#safari",
+            "count": 281
+        },
+        {
+            "hashtag1": "#mountainclimbing",
+            "hashtag2": "#scubadiving",
+            "count": 237
+        },
+        {
+            "hashtag1": "#mountainclimbing",
+            "hashtag2": "#snorkeling",
+            "count": 247
+        },
+        {
+            "hashtag1": "#mountainclimbing",
+            "hashtag2": "#trailrunning",
+            "count": 254
+        },
+        {
+            "hashtag1": "#mountainclimbing",
+            "hashtag2": "#trekking",
+            "count": 279
+        },
+        {
+            "hashtag1": "#mountainclimbing",
+            "hashtag2": "#waterfallhiking",
+            "count": 249
+        },
+        {
+            "hashtag1": "#mountainclimbing",
+            "hashtag2": "#wilderness",
+            "count": 261
+        },
+        {
+            "hashtag1": "#mountainclimbing",
+            "hashtag2": "#ziplining",
+            "count": 249
+        },
+        {
+            "hashtag1": "#paragliding",
+            "hashtag2": "#rafting",
+            "count": 252
+        },
+        {
+            "hashtag1": "#paragliding",
+            "hashtag2": "#rockclimbing",
+            "count": 261
+        },
+        {
+            "hashtag1": "#paragliding",
+            "hashtag2": "#safari",
+            "count": 222
+        },
+        {
+            "hashtag1": "#paragliding",
+            "hashtag2": "#scubadiving",
+            "count": 244
+        },
+        {
+            "hashtag1": "#paragliding",
+            "hashtag2": "#snorkeling",
+            "count": 263
+        },
+        {
+            "hashtag1": "#paragliding",
+            "hashtag2": "#trailrunning",
+            "count": 245
+        },
+        {
+            "hashtag1": "#paragliding",
+            "hashtag2": "#trekking",
+            "count": 281
+        },
+        {
+            "hashtag1": "#paragliding",
+            "hashtag2": "#waterfallhiking",
+            "count": 265
+        },
+        {
+            "hashtag1": "#paragliding",
+            "hashtag2": "#wilderness",
+            "count": 280
+        },
+        {
+            "hashtag1": "#paragliding",
+            "hashtag2": "#ziplining",
+            "count": 259
+        },
+        {
+            "hashtag1": "#rafting",
+            "hashtag2": "#rockclimbing",
+            "count": 231
+        },
+        {
+            "hashtag1": "#rafting",
+            "hashtag2": "#safari",
+            "count": 276
+        },
+        {
+            "hashtag1": "#rafting",
+            "hashtag2": "#scubadiving",
+            "count": 240
+        },
+        {
+            "hashtag1": "#rafting",
+            "hashtag2": "#snorkeling",
+            "count": 253
+        },
+        {
+            "hashtag1": "#rafting",
+            "hashtag2": "#trailrunning",
+            "count": 250
+        },
+        {
+            "hashtag1": "#rafting",
+            "hashtag2": "#trekking",
+            "count": 248
+        },
+        {
+            "hashtag1": "#rafting",
+            "hashtag2": "#waterfallhiking",
+            "count": 262
+        },
+        {
+            "hashtag1": "#rafting",
+            "hashtag2": "#wilderness",
+            "count": 265
+        },
+        {
+            "hashtag1": "#rafting",
+            "hashtag2": "#ziplining",
+            "count": 261
+        },
+        {
+            "hashtag1": "#rockclimbing",
+            "hashtag2": "#safari",
+            "count": 258
+        },
+        {
+            "hashtag1": "#rockclimbing",
+            "hashtag2": "#scubadiving",
+            "count": 279
+        },
+        {
+            "hashtag1": "#rockclimbing",
+            "hashtag2": "#snorkeling",
+            "count": 266
+        },
+        {
+            "hashtag1": "#rockclimbing",
+            "hashtag2": "#trailrunning",
+            "count": 293
+        },
+        {
+            "hashtag1": "#rockclimbing",
+            "hashtag2": "#trekking",
+            "count": 272
+        },
+        {
+            "hashtag1": "#rockclimbing",
+            "hashtag2": "#waterfallhiking",
+            "count": 241
+        },
+        {
+            "hashtag1": "#rockclimbing",
+            "hashtag2": "#wilderness",
+            "count": 259
+        },
+        {
+            "hashtag1": "#rockclimbing",
+            "hashtag2": "#ziplining",
+            "count": 252
+        },
+        {
+            "hashtag1": "#safari",
+            "hashtag2": "#scubadiving",
+            "count": 284
+        },
+        {
+            "hashtag1": "#safari",
+            "hashtag2": "#snorkeling",
+            "count": 261
+        },
+        {
+            "hashtag1": "#safari",
+            "hashtag2": "#trailrunning",
+            "count": 245
+        },
+        {
+            "hashtag1": "#safari",
+            "hashtag2": "#trekking",
+            "count": 257
+        },
+        {
+            "hashtag1": "#safari",
+            "hashtag2": "#waterfallhiking",
+            "count": 270
+        },
+        {
+            "hashtag1": "#safari",
+            "hashtag2": "#wilderness",
+            "count": 268
+        },
+        {
+            "hashtag1": "#safari",
+            "hashtag2": "#ziplining",
+            "count": 261
+        },
+        {
+            "hashtag1": "#scubadiving",
+            "hashtag2": "#snorkeling",
+            "count": 241
+        },
+        {
+            "hashtag1": "#scubadiving",
+            "hashtag2": "#trailrunning",
+            "count": 264
+        },
+        {
+            "hashtag1": "#scubadiving",
+            "hashtag2": "#trekking",
+            "count": 267
+        },
+        {
+            "hashtag1": "#scubadiving",
+            "hashtag2": "#waterfallhiking",
+            "count": 235
+        },
+        {
+            "hashtag1": "#scubadiving",
+            "hashtag2": "#wilderness",
+            "count": 260
+        },
+        {
+            "hashtag1": "#scubadiving",
+            "hashtag2": "#ziplining",
+            "count": 285
+        },
+        {
+            "hashtag1": "#snorkeling",
+            "hashtag2": "#trailrunning",
+            "count": 266
+        },
+        {
+            "hashtag1": "#snorkeling",
+            "hashtag2": "#trekking",
+            "count": 265
+        },
+        {
+            "hashtag1": "#snorkeling",
+            "hashtag2": "#waterfallhiking",
+            "count": 253
+        },
+        {
+            "hashtag1": "#snorkeling",
+            "hashtag2": "#wilderness",
+            "count": 265
+        },
+        {
+            "hashtag1": "#snorkeling",
+            "hashtag2": "#ziplining",
+            "count": 257
+        },
+        {
+            "hashtag1": "#trailrunning",
+            "hashtag2": "#trekking",
+            "count": 273
+        },
+        {
+            "hashtag1": "#trailrunning",
+            "hashtag2": "#waterfallhiking",
+            "count": 280
+        },
+        {
+            "hashtag1": "#trailrunning",
+            "hashtag2": "#wilderness",
+            "count": 258
+        },
+        {
+            "hashtag1": "#trailrunning",
+            "hashtag2": "#ziplining",
+            "count": 268
+        },
+        {
+            "hashtag1": "#trekking",
+            "hashtag2": "#waterfallhiking",
+            "count": 253
+        },
+        {
+            "hashtag1": "#trekking",
+            "hashtag2": "#wilderness",
+            "count": 277
+        },
+        {
+            "hashtag1": "#trekking",
+            "hashtag2": "#ziplining",
+            "count": 245
+        },
+        {
+            "hashtag1": "#waterfallhiking",
+            "hashtag2": "#wilderness",
+            "count": 264
+        },
+        {
+            "hashtag1": "#waterfallhiking",
+            "hashtag2": "#ziplining",
+            "count": 271
+        },
+        {
+            "hashtag1": "#wilderness",
+            "hashtag2": "#ziplining",
+            "count": 272
+        }
+    ]
+}

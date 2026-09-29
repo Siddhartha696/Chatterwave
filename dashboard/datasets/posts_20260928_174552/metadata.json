@@ -1,0 +1,16 @@
+{
+    "id": "posts_20260928_174552",
+    "name": "bhAAi",
+    "description": "Automated MapReduce analysis of the supplied ChatterWave dataset.",
+    "posts": 50,
+    "users": 12,
+    "hashtags": 21,
+    "total_engagement": 10078,
+    "analyses": [
+        "Problem 1 - Hashtag Frequency",
+        "Problem 2 - Average Engagement",
+        "Problem 3 - Highest Engaged User",
+        "Problem 4 - Posting Hour Activity",
+        "Problem 5 - Hashtag Relationships"
+    ]
+}

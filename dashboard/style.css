@@ -1,0 +1,983 @@
+:root {
+    --black: #0b0b0b;
+    --black-2: #101010;
+    --panel: #141414;
+    --panel-hover: #181818;
+
+    --white: #f2f2f2;
+    --text: #d8d8d8;
+    --gray: #929292;
+    --gray-dark: #5f5f5f;
+
+    --border: #292929;
+    --border-light: #333333;
+
+    --red: #e6393f;
+    --red-dark: #a92b30;
+
+    --sidebar-width: 235px;
+}
+
+
+/* =========================================
+   RESET
+========================================= */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: var(--black);
+    color: var(--text);
+
+    font-family:
+        "Segoe UI",
+        Arial,
+        sans-serif;
+
+    line-height: 1.5;
+}
+
+
+/* =========================================
+   SIDEBAR
+========================================= */
+
+.sidebar {
+    position: fixed;
+
+    left: 0;
+    top: 0;
+
+    width: var(--sidebar-width);
+    height: 100vh;
+
+    padding: 28px 18px;
+
+    background: #0d0d0d;
+
+    border-right: 1px solid var(--border);
+
+    display: flex;
+    flex-direction: column;
+
+    z-index: 20;
+}
+
+
+/* =========================================
+   BRAND
+========================================= */
+
+.brand {
+    display: flex;
+    align-items: center;
+
+    gap: 12px;
+
+    padding: 0 7px 38px;
+}
+
+.brand-mark {
+    width: 35px;
+    height: 35px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid var(--red);
+
+    color: var(--red);
+
+    font-family: Georgia, serif;
+
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+
+.brand h1 {
+    color: var(--white);
+
+    font-family: Georgia, serif;
+
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.brand span {
+    display: block;
+
+    margin-top: 1px;
+
+    color: var(--gray-dark);
+
+    font-size: 8px;
+
+    letter-spacing: 2px;
+}
+
+
+/* =========================================
+   NAVIGATION
+========================================= */
+
+nav {
+    display: flex;
+    flex-direction: column;
+
+    gap: 2px;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+
+    gap: 13px;
+
+    padding: 11px 10px;
+
+    border-left: 2px solid transparent;
+
+    color: var(--gray);
+
+    text-decoration: none;
+
+    font-size: 12px;
+
+    transition:
+        background 0.15s ease,
+        color 0.15s ease,
+        border-color 0.15s ease;
+}
+
+.nav-item span {
+    width: 19px;
+
+    color: var(--gray-dark);
+
+    font-family: monospace;
+
+    font-size: 9px;
+}
+
+.nav-item:hover {
+    background: #151515;
+
+    color: var(--white);
+}
+
+.nav-item.active {
+    background: #181313;
+
+    color: var(--white);
+
+    border-left-color: var(--red);
+}
+
+.nav-item.active span {
+    color: var(--red);
+}
+
+
+/* =========================================
+   SIDEBAR FOOTER
+========================================= */
+
+.sidebar-footer {
+    margin-top: auto;
+
+    padding: 15px 8px;
+
+    border-top: 1px solid var(--border);
+
+    display: flex;
+    align-items: center;
+
+    gap: 9px;
+}
+
+.sidebar-footer strong {
+    display: block;
+
+    color: var(--text);
+
+    font-size: 9px;
+
+    font-weight: 500;
+}
+
+.sidebar-footer small {
+    color: var(--gray-dark);
+
+    font-size: 8px;
+}
+
+
+/* =========================================
+   STATUS DOT
+========================================= */
+
+.status-dot {
+    width: 6px;
+    height: 6px;
+
+    border-radius: 50%;
+
+    background: var(--red);
+}
+
+
+/* =========================================
+   MAIN
+========================================= */
+
+.main {
+    margin-left: var(--sidebar-width);
+
+    min-height: 100vh;
+
+    padding: 0 48px 60px;
+}
+
+
+/* =========================================
+   TOP HEADER
+========================================= */
+
+.topbar {
+    min-height: 112px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border-bottom: 1px solid var(--border);
+}
+
+.eyebrow {
+    margin-bottom: 5px;
+
+    color: var(--gray-dark);
+
+    font-size: 8px;
+
+    letter-spacing: 2.2px;
+}
+
+.topbar h2 {
+    color: var(--white);
+
+    font-family: Georgia, serif;
+
+    font-size: 29px;
+
+    font-weight: 400;
+}
+
+.header-meta {
+    display: flex;
+    align-items: center;
+
+    gap: 18px;
+
+    color: var(--gray-dark);
+
+    font-size: 9px;
+}
+
+.dataset-status {
+    color: var(--gray);
+
+    font-size: 8px;
+
+    letter-spacing: 1px;
+}
+
+
+/* =========================================
+   SECTIONS
+========================================= */
+
+.section {
+    padding-top: 52px;
+}
+
+.section-heading {
+    margin-bottom: 19px;
+}
+
+.section-heading > div {
+    display: flex;
+
+    align-items: flex-start;
+
+    gap: 13px;
+}
+
+.section-number {
+    padding-top: 3px;
+
+    color: var(--red);
+
+    font-family: monospace;
+
+    font-size: 10px;
+}
+
+.section-heading h3 {
+    color: var(--white);
+
+    font-family: Georgia, serif;
+
+    font-size: 19px;
+
+    font-weight: 400;
+}
+
+.section-heading p {
+    margin-top: 2px;
+
+    color: var(--gray);
+
+    font-size: 10px;
+}
+
+
+/* =========================================
+   STATISTICS
+========================================= */
+
+.stats-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(4, 1fr);
+
+    gap: 1px;
+
+    background: var(--border);
+}
+
+.stat-card {
+    min-height: 132px;
+
+    padding: 20px;
+
+    background: var(--panel);
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+}
+
+.stat-card:hover {
+    background: var(--panel-hover);
+}
+
+.stat-card.accent-card {
+    background: #171212;
+}
+
+.stat-label {
+    color: var(--gray);
+
+    font-size: 8px;
+
+    letter-spacing: 1.5px;
+}
+
+.stat-card strong {
+    color: var(--white);
+
+    font-family: Georgia, serif;
+
+    font-size: 35px;
+
+    font-weight: 400;
+}
+
+.stat-card.accent-card strong {
+    color: var(--red);
+}
+
+.stat-note {
+    color: var(--gray-dark);
+
+    font-size: 9px;
+}
+
+
+/* =========================================
+   PANELS
+========================================= */
+
+.chart-panel,
+.relationship-panel,
+.highlight-panel,
+.comparison-placeholder {
+    background: var(--panel);
+
+    border: 1px solid var(--border);
+}
+
+.chart-panel {
+    padding: 21px;
+}
+
+.panel-header {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: flex-start;
+
+    margin-bottom: 20px;
+}
+
+.panel-label {
+    color: var(--gray);
+
+    font-size: 8px;
+
+    letter-spacing: 1.6px;
+}
+
+.panel-header h4 {
+    margin-top: 4px;
+
+    color: var(--white);
+
+    font-size: 13px;
+
+    font-weight: 500;
+}
+
+.problem-tag {
+    padding: 4px 7px;
+
+    border: 1px solid var(--border);
+
+    color: var(--gray-dark);
+
+    font-size: 7px;
+
+    letter-spacing: 0.8px;
+}
+
+
+/* =========================================
+   CHARTS
+========================================= */
+
+.chart-container {
+    position: relative;
+
+    height: 350px;
+}
+
+.activity-chart {
+    height: 280px;
+}
+
+.two-column {
+    display: grid;
+
+    grid-template-columns:
+        minmax(0, 1.7fr)
+        minmax(250px, 0.8fr);
+
+    gap: 12px;
+}
+
+
+/* =========================================
+   USER HIGHLIGHT
+========================================= */
+
+.highlight-panel {
+    padding: 23px;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+}
+
+.highlight-panel h4 {
+    margin-top: 6px;
+
+    color: var(--white);
+
+    font-family: Georgia, serif;
+
+    font-size: 19px;
+
+    font-weight: 400;
+}
+
+.user-highlight {
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+
+    margin-top: 20px;
+}
+
+.user-avatar {
+    width: 44px;
+    height: 44px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid var(--red);
+
+    color: var(--red);
+
+    font-family: Georgia, serif;
+
+    font-size: 17px;
+}
+
+.user-highlight strong {
+    display: block;
+
+    color: var(--white);
+
+    font-size: 15px;
+
+    font-weight: 500;
+}
+
+.user-highlight span {
+    color: var(--gray);
+
+    font-size: 9px;
+}
+
+.engagement-value {
+    margin-top: auto;
+
+    padding-top: 27px;
+
+    border-top: 1px solid var(--border);
+}
+
+.engagement-value strong {
+    color: var(--red);
+
+    font-family: Georgia, serif;
+
+    font-size: 40px;
+
+    font-weight: 400;
+}
+
+.engagement-value span {
+    display: block;
+
+    color: var(--gray);
+
+    font-size: 9px;
+}
+
+
+/* =========================================
+   RELATIONSHIPS
+========================================= */
+
+.relationship-panel {
+    padding: 21px;
+}
+
+.relationship-controls {
+    display: flex;
+
+    gap: 8px;
+
+    margin-bottom: 15px;
+}
+
+.relationship-controls input,
+.relationship-controls select {
+    padding: 9px 11px;
+
+    background: #101010;
+
+    border: 1px solid var(--border);
+
+    outline: none;
+
+    color: var(--text);
+
+    font-size: 10px;
+}
+
+.relationship-controls input {
+    flex: 1;
+}
+
+.relationship-controls select {
+    width: 175px;
+}
+
+.relationship-controls input:focus,
+.relationship-controls select:focus {
+    border-color: var(--red-dark);
+}
+
+
+/* =========================================
+   TABLE
+========================================= */
+
+.table-wrapper {
+    max-height: 410px;
+
+    overflow-y: auto;
+
+    border: 1px solid var(--border);
+}
+
+table {
+    width: 100%;
+
+    border-collapse: collapse;
+}
+
+thead {
+    position: sticky;
+
+    top: 0;
+
+    background: #181818;
+
+    z-index: 1;
+}
+
+th {
+    color: var(--gray);
+
+    font-size: 7px;
+
+    font-weight: 500;
+
+    letter-spacing: 1.3px;
+
+    text-align: left;
+}
+
+th,
+td {
+    padding: 11px 13px;
+
+    border-bottom: 1px solid var(--border);
+}
+
+td {
+    color: var(--text);
+
+    font-size: 10px;
+}
+
+td:last-child {
+    color: var(--red);
+
+    font-family: monospace;
+}
+
+tbody tr:hover {
+    background: #181818;
+}
+
+
+/* =========================================
+   COMPARISON
+========================================= */
+
+.comparison-placeholder {
+    min-height: 190px;
+
+    padding: 28px;
+}
+
+.comparison-placeholder h4 {
+    margin-top: 7px;
+
+    color: var(--white);
+
+    font-family: Georgia, serif;
+
+    font-size: 20px;
+
+    font-weight: 400;
+}
+
+.comparison-placeholder p {
+    max-width: 650px;
+
+    margin-top: 8px;
+
+    color: var(--gray);
+
+    font-size: 11px;
+}
+
+.coming-soon {
+    display: inline-block;
+
+    margin-top: 19px;
+
+    padding: 5px 8px;
+
+    border: 1px solid var(--border);
+
+    color: var(--red);
+
+    font-size: 7px;
+
+    letter-spacing: 1px;
+}
+
+
+/* =========================================
+   FOOTER
+========================================= */
+
+footer {
+    margin-top: 65px;
+
+    padding-top: 17px;
+
+    border-top: 1px solid var(--border);
+
+    display: flex;
+
+    justify-content: space-between;
+
+    color: var(--gray-dark);
+
+    font-size: 7px;
+
+    letter-spacing: 1px;
+}
+
+footer .status-dot {
+    display: inline-block;
+
+    margin-right: 5px;
+}
+
+
+/* =========================================
+   SCROLLBAR
+========================================= */
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--black);
+}
+
+::-webkit-scrollbar-thumb {
+    background: #383838;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--red-dark);
+}
+
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 1000px) {
+
+    :root {
+        --sidebar-width: 190px;
+    }
+
+    .main {
+        padding: 0 25px 50px;
+    }
+
+    .stats-grid {
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+
+    .two-column {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+@media (max-width: 700px) {
+
+    .sidebar {
+        position: relative;
+
+        width: 100%;
+        height: auto;
+
+        border-right: none;
+
+        border-bottom: 1px solid var(--border);
+    }
+
+    nav {
+        flex-direction: row;
+
+        overflow-x: auto;
+    }
+
+    .sidebar-footer {
+        display: none;
+    }
+
+    .main {
+        margin-left: 0;
+
+        padding: 0 16px 40px;
+    }
+
+    .topbar {
+        padding: 24px 0;
+
+        align-items: flex-start;
+
+        flex-direction: column;
+
+        gap: 14px;
+    }
+
+    .stats-grid {
+        grid-template-columns: 1fr;
+    }
+}
+/* =========================================
+   DATASET SELECTOR
+   ========================================= */
+
+.dataset-selector {
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    background: var(--black);
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 40px;
+    overflow-y: auto;
+}
+
+.dataset-selector-inner {
+    width: min(900px, 100%);
+}
+
+.dataset-selector .eyebrow {
+    display: block;
+    margin-bottom: 18px;
+}
+
+.dataset-selector h1 {
+    margin: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 42px;
+    font-weight: 500;
+    color: var(--white);
+}
+
+.dataset-selector-description {
+    margin: 14px 0 35px;
+    color: var(--gray);
+    font-size: 15px;
+}
+
+.dataset-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 16px;
+}
+
+.dataset-card {
+    border: 1px solid var(--border);
+    background: var(--panel);
+    padding: 24px;
+    cursor: pointer;
+    transition: border-color 0.2s ease,
+                background 0.2s ease;
+}
+
+.dataset-card:hover {
+    border-color: var(--red);
+    background: var(--panel-hover);
+}
+
+.dataset-card h3 {
+    margin: 0 0 10px;
+    color: var(--white);
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.dataset-card p {
+    margin: 0 0 20px;
+    color: var(--gray);
+    line-height: 1.6;
+    font-size: 14px;
+}
+
+.dataset-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    padding-top: 16px;
+    border-top: 1px solid var(--border);
+}
+
+.dataset-meta-item {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.dataset-meta-item strong {
+    color: var(--white);
+    font-size: 17px;
+}
+
+.dataset-meta-item span {
+    color: var(--gray-dark);
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
+.dataset-open {
+    margin-top: 20px;
+    color: var(--red);
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.dataset-loading {
+    color: var(--gray);
+    font-size: 14px;
+}

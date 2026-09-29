@@ -1,0 +1,24 @@
+{
+    "datasets": [
+        {
+            "id": "original_50",
+            "metadata": "metadata.json",
+            "data": "data.json"
+        },
+        {
+            "id": "posts_20260928_174552",
+            "metadata": "metadata.json",
+            "data": "data.json"
+        },
+        {
+            "id": "tourism_adventure_20000_20260929_145131",
+            "metadata": "metadata.json",
+            "data": "data.json"
+        },
+        {
+            "id": "tourism_adventure_20000_20260929_160031",
+            "metadata": "metadata.json",
+            "data": "data.json"
+        }
+    ]
+}
